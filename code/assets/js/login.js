@@ -54,6 +54,7 @@ $(function () {
 
     //监听登陆表单的注册事件
     $('#form_login').submit(function (e) {
+        console.log(123);
         e.preventDefault()
         $.ajax({
             url: '/api/login',
